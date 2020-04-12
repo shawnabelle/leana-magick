@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 h1 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Abril Fatface';
     color: black;
     text-align: center;
     padding: 15px;
@@ -55,7 +55,7 @@ div {
     padding: 5px;
 }
 .nav-link {
-    font-family:'Abril Fatface', cursive !important;
+    font-family:'Abril Fatface' !important;
     color: #6c3c80 !important;
 }
 span .navbar-toggler-icon {
@@ -77,12 +77,12 @@ background-position: top;
 padding: 20px;
 
 }
-h1.banner-txt {
+.banner-txt {
     color: #fff !important;
     margin: auto;
    text-align: center;
    text-transform: uppercase;
-   font-family: 'Abril Fatface', cursive;
+   font-family: 'Abril Fatface';
    font-size: 4rem;
    animation-name: moveinleft;
 animation-duration: 1s;
