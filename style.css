@@ -166,11 +166,12 @@ a.btn {
 .testimonial {
     background-color: #fff;
     padding-bottom: 30px;
-    width: 100%;
-    height: 100vh;
 }
 #testimonials {
   padding-top: 30px;
+  height: 100%;
+  width: 100%;
+ 
 }
 #carousel-example-1 > a.carousel-control-next.right.carousel-control > i {
     color: gray;
@@ -249,13 +250,10 @@ a.carousel-control-next.right.carousel-control > span.sr-only {
   @media(max-width:500px) {
   .banner-txt {
    font-size: 3rem;
-   animation-name: moveinleft;
-animation-duration: 1s;
-animation-timing-function: ease-out;
-   display: block;
-   padding-top: 200px;
-   padding-bottom: 70px; 
 }
+.testimonial {
+    padding-bottom: 40px;
+  }
   }
  
 
