@@ -246,6 +246,17 @@ a.carousel-control-next.right.carousel-control > span.sr-only {
         margin-bottom: 0;
     }
   }
+  @media(max-width:500px) {
+  .banner-txt {
+   font-size: 3rem;
+   animation-name: moveinleft;
+animation-duration: 1s;
+animation-timing-function: ease-out;
+   display: block;
+   padding-top: 200px;
+   padding-bottom: 70px; 
+}
+  }
  
 
 
