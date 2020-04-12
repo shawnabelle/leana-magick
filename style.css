@@ -96,7 +96,7 @@ animation-timing-function: ease-out;
     max-width: 300px;
     margin: auto;
     padding-top: 50px;
-    animation: moveinright 1s ease-out;
+    animation: moveinright 1.5s ease-out;
 }
 
 #banner > div > button {
