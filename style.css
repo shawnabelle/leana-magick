@@ -248,7 +248,9 @@ a.carousel-control-next.right.carousel-control > span.sr-only {
     }
   }
   @media(max-width:500px) {
-  .banner-txt {
+    
+  
+    .banner-txt {
    font-size: 3rem;
 }
 .testimonial {
