@@ -117,6 +117,10 @@ animation-timing-function: ease-out;
     height: 500px;
     text-align: center;
   }
+  #about-me > div > div > div > center > img {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
 
 .about-p {
    margin-top: 30px;
@@ -250,7 +254,10 @@ a.carousel-control-next.right.carousel-control > span.sr-only {
     }
   }
   @media(max-width:500px) {
-    
+    #about-me img  {
+        width: 300px;
+        height: 400px;
+      }
   
     .banner-txt {
    font-size: 3rem;
