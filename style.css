@@ -127,6 +127,7 @@ animation-timing-function: ease-out;
    text-align: center;
    margin-bottom: 30px;
    padding: 20px;
+
  
 }
 
@@ -153,7 +154,7 @@ animation-timing-function: ease-out;
     text-align: center;
     padding-top: 25px;
 } 
-a.btn {
+/* a.btn {
     background: #6c3c80;
     color: #fff !important;
     padding: 0.8rem 1.8rem;
@@ -164,6 +165,12 @@ a.btn {
   animation: moveinbutton .5s ease-out .75s;
      animation-fill-mode: backwards;
   
+} */
+
+form {
+    display: block; 
+    margin: 0 auto;
+    text-align: center;
 }
 .btn:hover {
     opacity: 0.8;
