@@ -167,11 +167,13 @@ animation-timing-function: ease-out;
   
 } */
 
-form {
+#contact > div > div > section > div > div > form {
     display: block; 
     margin: 0 auto;
     text-align: center;
+    background: #6c3c80 !important;
 }
+
 .btn:hover {
     opacity: 0.8;
 }
@@ -242,6 +244,8 @@ a.carousel-control-next.right.carousel-control > span.sr-only {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
+  
 
 
 @media(max-width:945px) {
